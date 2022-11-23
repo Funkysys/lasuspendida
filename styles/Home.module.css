@@ -12,19 +12,38 @@
 }
 
 .video {
-  height: 60vh;
-  width: 70vw;
+
+  width: auto;
+  height: auto;
 }
 
 .button {
   margin-top: 2vh;
-  font-size: 3rem;
-  padding: 10px 20px;
+
+  font-size: 0.7rem;
+  padding: 5px 10px;
+
+
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: #000;
   border-radius: 20px;
   color: antiquewhite;
 }
+
 .button:hover {
   background: rgb(73, 73, 73);
+}
+
+@media screen and (min-width: 600px) {
+
+  .video {
+    height: 60vh;
+    width: 70vw;
+  }
+
+  .button {
+    font-size: 2em;
+    padding: 10px 20px;
+  }
+
 }
