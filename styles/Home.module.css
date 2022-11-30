@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  text-align: center;
 }
 
 .main {
@@ -36,9 +37,18 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 1.5em;
 }
 
+.subTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: -10px;
+}
+
 @media screen and (min-width: 600px) {
   .title {
     font-size: 3em;
+    }
+    .subTitle {
+      font-size: 1.6em;
     }
 
   .video {
