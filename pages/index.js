@@ -23,7 +23,7 @@ export default function Home() {
         <p className={styles.paragraph}>Creating an opera is not an easy thing. <br /> Even less when it comes to a Jazz Metal Opera! <br />If you want to help us go through all the stages of this creation,<br />do not hesitate to click on one of the links below!</p>
         <button className={styles.button}>
           <Link href={"https://www.gofundme.com/f/la-suspendida-opera-album-production/widget/large/"}>
-            Donate new
+            Donate Now
           </Link>
         </button>
 
