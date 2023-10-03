@@ -24,17 +24,17 @@ export default function Home() {
         </div>
         <iframe
           className={styles.video}
-          src="https://www.youtube.com/embed/YnXe9FLNYd0"
-          title="YouTube video player"
-          allowFullScreen
-          >
-        </iframe>
-        <iframe
-          className={styles.video}
           src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100092385337326%2Fvideos%2F542722111343502%2F&show_text=true&width=560&t=0"
           title='Facebook Video'
           allowFullScreen={true}
         >
+        </iframe>
+        <iframe
+          className={styles.video}
+          src="https://www.youtube.com/embed/YnXe9FLNYd0"
+          title="YouTube video player"
+          allowFullScreen
+          >
         </iframe>
         <p className={styles.paragraph}>Creating an opera is not an easy thing. <br /> Even less when it comes to a Jazz Metal Opera! <br />If you want to help us go through all the stages of this creation,<br />do not hesitate to click on one of the links below!</p>
         <button className={styles.button}>
